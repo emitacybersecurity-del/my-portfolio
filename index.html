@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emita Magaji | Cybersecurity Analyst Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">EMITA <span class="accent-text">MAGAJI</span></div>
+            <ul class="nav-links" id="navLinks">
+                <li><button class="nav-item active" data-page="home">Home</button></li>
+                <li><button class="nav-item" data-page="about">About Me</button></li>
+                <li><button class="nav-item" data-page="projects">Projects</button></li>
+                <li><button class="nav-item" data-page="planner">Academic Planner</button></li>
+                <li><button class="nav-item" data-page="contact">Contact</button></li>
+            </ul>
+            <div class="burger" id="burgerMenu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="content-wrapper">
+        
+        <section id="home" class="page-section active-page">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <span class="badge">SECURE // DEFEND // ANALYZE</span>
+                    <h1>Securing Digital Assets with Defensive Engineering</h1>
+                    <p class="bio">Welcome! My name is <strong>Emita Magaji</strong>. I am an aspiring cybersecurity analyst dedicated to defending networks, analyzing security alerts, and responding to incidents to keep people and businesses safe online.</p>
+                    <div class="btn-group">
+                        <button class="btn btn-primary" data-target="projects">Explore Projects</button>
+                        <button class="btn btn-secondary" data-target="contact">Get In Touch</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src=".\image\photo.jpg" alt="Emita Magaji Profile Photograph">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="page-section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-card vertical-accent">
+                    <h3>Educational Background</h3>
+                    <p>I am currently pursuing a Bachelor of Science degree in Cybersecurity at MIVA Open University. </p>
+                </div>
+                <div class="about-card vertical-accent">
+                    <h3>Career Aspirations</h3>
+                    <p> I aspire to become a skilled Cybersecurity Analyst focused on protecting systems and data from cyber threats. Through hands-on learning in SOC operations, threat hunting, and incident response, I hope to help organizations stay secure while continuously growing my technical skills.</p>
+                </div>
+                <div class="about-card col-span-2">
+                    <h3>Technical Skills & Core Toolsets</h3>
+                    <ul class="skills-list">
+                        <li><span>Network Packet Analysis</span></li>
+                        <li><span>Linux Shell Auditing & Scripting</span></li>
+                        <li><span>SIEM Log Dashboards (Splunk / Elastic)</span></li>
+                        <li><span>Vulnerability Enumeration (Nmap / Nessus)</span></li>
+                        <li><span>Python Defensive Tool Engineering</span></li>
+                        <li><span>Firewall & IDS Configuration</span></li>
+                    </ul>
+                </div>
+                <div class="about-card col-span-2">
+                    <h3>Hobbies & Interests</h3>
+                    <p>When i am not wearing my hat as a cybersecurity professional, I love to create music and play basketball.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="page-section">
+            <h2 class="section-title">Cybersecurity Case Studies</h2>
+            <div class="projects-matrix">
+                <div class="project-card">
+                    <div class="project-img-holder">
+                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=600" alt="Network Monitoring Dashboard View">
+                    </div>
+                    <div class="project-content">
+                        <h3>Automated Network Packet Sniffer</h3>
+                        <p>A Python-powered raw socket listener that parses real-time IPv4 traffic headers to flag suspicious connection anomalies and log unauthorized packet distributions.</p>
+                        <a href="#" class="project-link" onclick="return false;">Source Repository &rarr;</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img-holder">
+                        <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=600" alt="Vulnerability Report Layout">
+                    </div>
+                    <div class="project-content">
+                        <h3>Vulnerability Scanner & Reporter</h3>
+                        <p>Constructed an automation script integrating Nmap binaries to recursively run target subnets, look for open ports, flag outdated service headers, and output clear Markdown tables.</p>
+                        <a href="#" class="project-link" onclick="return false;">Source Repository &rarr;</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img-holder">
+                        <img src="https://images.unsplash.com/photo-1510511459019-5dda7724fd87?auto=format&fit=crop&q=80&w=600" alt="Encrypted Storage Screen">
+                    </div>
+                    <div class="project-content">
+                        <h3>AES-256 Cryptographic Local File Vault</h3>
+                        <p>Engineered a desktop local utility tool using cryptographic standard salts to safely encrypt baseline storage credentials and text files with zero password data leak vectors.</p>
+                        <a href="#" class="project-link" onclick="return false;">Source Repository &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="media-container">
+                <h3>Technical Presentation: Lab Network Infrastructure</h3>
+                <p>Watch this dynamic architectural walk-through showing safe containment setups for vulnerability assessment workflows.</p>
+                <div class="video-wrapper">
+                    <video controls poster="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80&w=800">
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <section id="planner" class="page-section">
+            <h2 class="section-title">Academic Tasks Planner</h2>
+            <div class="planner-box">
+                <h3>Submit New Academic Objective</h3>
+                <div class="planner-form">
+                    <input type="text" id="taskInput" placeholder="e.g., Complete COS 106 Practical Lab Portfolio...">
+                    <button class="btn btn-primary" id="addTaskBtn">Append Objective</button>
+                </div>
+                
+                <div class="table-responsive">
+                    <table class="planner-table">
+                        <thead>
+                            <tr>
+                                <th style="width: 60%;">Target Academic Assignment Description</th>
+                                <th style="width: 20%; text-align: center;">Status Flag</th>
+                                <th style="width: 20%; text-align: center;">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="taskTableBody">
+                            </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="page-section">
+            <h2 class="section-title">Initiate Contact Securely</h2>
+            <div class="contact-box">
+                <form id="contactForm" novalidate>
+                    <div class="form-group">
+                        <label for="contactName">Full Professional Name *</label>
+                        <input type="text" id="contactName" placeholder="Magaji Emita Testimony">
+                        <span class="error-text" id="errorName"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactEmail">Authorized Return Email Address *</label>
+                        <input type="email" id="contactEmail" placeholder="e.magaji9386@miva.edu.ng">
+                        <span class="error-text" id="errorEmail"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactPhone">Secure Direct Phone Number *</label>
+                        <input type="tel" id="contactPhone" placeholder="08149403045">
+                        <span class="error-text" id="errorPhone"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactMessage">Encrypted Message Briefing *</label>
+                        <textarea id="contactMessage" rows="5" placeholder="State your mission parameters here..."></textarea>
+                        <span class="error-text" id="errorMessage"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Broadcast Message Request</button>
+                    <div id="successBanner" class="success-alert"></div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Assessment @MIVA Open University. Designed by Emita Magaji</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
